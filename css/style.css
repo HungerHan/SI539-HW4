@@ -52,11 +52,11 @@ links in the navigation are in the hover or focus state.*/
     top: -40px;
 }
 
-    /*Your Code Here*/
-    /*Write selector/rule property to position the skip class element*/
-    .skip a:focus {
-        top: 0px;
-    }
+/*Your Code Here*/
+/*Write selector/rule property to position the skip class element*/
+.skip a:focus {
+    top: 0px;
+}
 
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
@@ -103,32 +103,33 @@ header {
     /*Set background-image to header.jpg */
     background-image: url('../images/header.jpg');
     background-color: #000000;
+
     grid-column: 1 / -1; /*Can you explain what this does?*/
     grid-row: 1 / auto; /*Can you rewrite it?*/
 }
 
-    header p {
-        color: white;
-        font-size: 24px;
-        padding: 0 100px;
-        text-align: center;
-    }
+header p {
+    color: white;
+    font-size: 24px;
+    padding: 0 100px;
+    text-align: center;
+}
 
 .about, .method, .clients, .contact {
-    grid-column: 2 / span 1;
     /*Your Code Here*/
+    grid-column: 2 / span 1;
 }
 
 .about-image, .method-image, .clients-image, .contact-image {
+    /*Your Code Here*/
     grid-column: 1 / -1;
     max-height: 700px;
     overflow: hidden;
-    /*Your Code Here*/
 }
 
 .about, .about-image {
-    grid-row: 2 / span 1;
     /*Your Code Here*/
+    grid-row: 2 / span 1;
 }
 
 .method, .method-image {
@@ -151,18 +152,18 @@ header {
 .text-block {
     background-color: rgba(255, 255, 255, .8);
     border: 10px solid black;
-    align-self: center;
     padding: 30px;
     /*Your code here:*/
+    align-self: center;
 }
 
 
 @media all and (min-width: 800px) {
     nav {
         padding: 30px 0px;
+        /*Your code here:*/
         background-color: #dddddd;
         text-align: right;
-        /*Your code here:*/
     }
 
     .container {
