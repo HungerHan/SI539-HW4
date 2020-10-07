@@ -36,6 +36,9 @@ nav a{
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
+a:hover {
+    text-decoration: underline;
+}
 
 
 .skip a{
@@ -99,7 +102,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image:url("https://amandnj.github.io/homework4/images/header.jpg");
+  background-image:url("https://Hungerhan.github.io/SI539-HW4/images/header.jpg");
  
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
